@@ -1,4 +1,4 @@
-.main_div_login{
+/* .main_div_login{
     margin:0;
     height: 100vh;
     background-color: #2C07B8;
@@ -104,3 +104,8 @@ padding: 15px;
     background-color: #BAB9BA;
     color: #4E4D4F;
 }
+
+.error{
+    color: red;
+    font-size: 24px;
+} */

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import '../Style/FormValidationExample.css'
+import "../Style/FormValidationExample.css";
+
 const FormValidationExample = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -12,6 +13,7 @@ const FormValidationExample = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
     setFormData({
       ...formData,
       [name]: value,
@@ -22,34 +24,28 @@ const FormValidationExample = () => {
     e.preventDefault();
     const validationErrors = {};
 
-    // Name validation: Required field
     if (!formData.name.trim()) {
       validationErrors.name = "Name is required";
     }
 
-    // Email validation: Required and valid email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!formData.email.trim() || !emailRegex.test(formData.email)) {
       validationErrors.email = "Valid email is required";
     }
 
-    // Age validation: Required and must be a number
     if (!formData.age.trim() || isNaN(formData.age)) {
       validationErrors.age = "Age must be a number";
     }
 
-    // Password validation: Required and minimum length of 6 characters
     if (formData.password.length < 6) {
       validationErrors.password = "Password must be at least 6 characters long";
     }
 
-    // If there are validation errors, set the state with errors and return
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
     }
 
-    // If no errors, form submission logic can be placed here
     console.log("Form submitted successfully:", formData);
   };
 

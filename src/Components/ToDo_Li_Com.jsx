@@ -13,7 +13,7 @@ const ToDo_Li_Com = ({e ,ItemDelet ,id}) => {
     <ImCancelCircle className='m-1 mt-1 ml-2 text-2xl cursor-pointer' onClick={()=>{
         ItemDelet(id)
     }}/>
-       <li className='text-2xl'> {e}</li>;
+       <li className='text-2xl'> {e}</li>
     </div>
     </>
   )

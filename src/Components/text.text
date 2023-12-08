@@ -1,0 +1,19 @@
+1.Understanding of React.js Fundamentals: A developer with one year of experience should have a solid understanding of React.js fundamentals, including components, state, props, hooks, and the virtual DOM. They should be comfortable building basic to moderately complex user interfaces.
+
+2.Proficiency in JavaScript: React.js heavily relies on JavaScript. A developer should have a good command of JavaScript concepts, including ES6 features like arrow functions, destructuring, and classes.
+
+3.Knowledge of State Management: They should be familiar with state management solutions in React.js, such as React Context API and Redux. They should be able to manage the state of the application effectively.
+
+4.API Integration: A React.js developer should be able to integrate APIs into React applications, making asynchronous requests and handling responses.
+
+5.Responsive Design: Understanding responsive design principles and CSS frameworks like Bootstrap or Material-UI is crucial for creating visually appealing and user-friendly interfaces across different devices and screen sizes.
+
+6.Debugging and Testing: Proficiency in debugging React applications and writing unit tests using testing libraries like Jest and React Testing Library.
+
+7.Version Control Systems: Familiarity with version control systems like Git is essential for collaborative development.
+
+8.Collaboration and Communication: Good communication skills are important for collaborating effectively with team members, understanding project requirements, and providing updates on progress.
+
+9.Problem-Solving Skills: The ability to analyze problems and come up with effective solutions, especially related to application performance and user experience.
+
+10.Continuous Learning: React.js is a constantly evolving technology. Developers should have a mindset for continuous learning, keeping up-to-date with the latest changes, best practices, and emerging trends in the React.js ecosystem.
